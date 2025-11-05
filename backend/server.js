@@ -11,7 +11,7 @@ import CONNECTDB from "./db.js";
 dotenv.config();
 const app = express();
 app.use(cors({
-    origin: "http://localhost:8080", // frontend URL
+    origin: process.env.FRONTEND_URL, // frontend URL
     credentials: true,               // allow cookies/token if needed
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
