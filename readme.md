@@ -8,7 +8,8 @@ Built as part of a full-stack technical challenge to demonstrate skills in backe
 ##  Live Demo
 
 - **Frontend (Vercel):** [https://swap-the-slot-8qcg.vercel.app]
-- **Backend (Render):** [https://swap-backend-w3ro.onrender.com]
+- **Backend (Render):** [https://swap-backend-w3ro.onrender.com](https://swap-backend-w3ro.onrender.com)  
+  *(Note: The backend is hosted on Render’s free tier and may take 30–60 seconds to wake up if idle.)*
 
 ---
 
