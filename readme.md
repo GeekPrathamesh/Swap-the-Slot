@@ -53,30 +53,38 @@ Once a swap request is accepted, the ownership of the slots is exchanged between
 ```bash
 git clone https://github.com/GeekPrathamesh/Swap-the-Slot.git
 cd SlotSwapper
+```
 
-2. Backend Setup
+### 2. Backend Setup
+```bash
 cd backend
 npm install
+```
 
-3. Create a .env file inside the backend directory and add:
-
+### 3. Create a `.env` file inside the backend directory and add:
+```env
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 PORT=5000
 FRONTEND_URL=http://localhost:8080
+```
 
-4. Run the backend:
-
+### 4. Run the backend:
+```bash
 npm run dev
+```
 
-5. Frontend Setup
+### 5. Frontend Setup
+```bash
 cd ../frontend
 npm install
 npm run dev
+```
 
-6. Create a .env file inside the frontend directory and add:
-
-VITE_API_URL=http://localhost:5000/api   
+### 6. Create a `.env` file inside the frontend directory and add:
+```env
+VITE_API_URL=http://localhost:5000/api
+```
     
 
 ##  API Endpoints
